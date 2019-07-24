@@ -1,0 +1,73 @@
+Created by sahabt on 2019-07-23
+
+This is a concept file with following syntax for each concept.
+# Sayfa Title Kontrolu
+* Sayfa Basligi "Login example page to test the PHP MySQL online system" degerini iceriyor mu
+* "5" saniye bekle
+
+# Sayfa Basliginin Kontrolu
+* "SayfaBasligi" elementi "4. Login" değerini içeriyor mu kontrol et
+* "5" saniye bekle
+
+
+# Sayfa Statu Mesajinin Kontrolu
+* "StatuMesaji" elementi "**No login attempted**" değerini içeriyor mu kontrol et
+* "5" saniye bekle
+
+
+
+# Sayfa Bilgi Mesajinin Kontrolu
+* "SayfaBilgiMesaji" elementi "Enter your login details you added on the previous page and" değerini içeriyor mu kontrol et
+* "5" saniye bekle
+
+
+# Kullanici Adi Giris Alani Kontrolu
+* "UserNameAdi" elementi "Username" değerini içeriyor mu kontrol et
+* "5" saniye bekle
+
+
+# Sifre Giris Alani Kontrolu
+* "PasswordAdi" elementi "Password" değerini içeriyor mu kontrol et
+
+
+
+# Login Butonu Adi Kontrolu
+* "LoginButton" elementin "value" degeri "Test Login" degerini iceriyor mu
+
+
+
+# Basarili Login Kontrolu
+* "testuser" textini elemente yaz "UserNameGirisAlani"
+* "1" saniye bekle
+* "testpass" textini elemente yaz "PasswordGirisAlani"
+* "1" saniye bekle
+* Click to element "LoginButton"
+* "SuccesLogintext" elementi "**Successful Login**" değerini içeriyor mu kontrol et
+* "2" saniye bekle
+
+
+# Basarisiz Login Kontrolu
+* "Gorkem İŞLER" textini elemente yaz "UserNameGirisAlani"
+* "1" saniye bekle
+* "isler" textini elemente yaz "PasswordGirisAlani"
+* "1" saniye bekle
+* Click to element "LoginButton"
+* "SuccesLogintext" elementi "**Failed Login**" değerini içeriyor mu kontrol et
+* "2" saniye bekle
+
+
+
+# Restfull Ozellikleri
+* "http://thedemosite.co.uk/login.php" Servis bilgisinin 200 kontrolünü yap
+* "http://thedemosite.co.uk/login.php" Servis bilgisinin 200 kontrolünü yap ve HTML kodunu yazdir
+
+
+
+
+# Sifre Degistirilmis ise calıstirilacak test
+* "degistilmisSifre" textini elemente yaz "UserNameGirisAlani"
+* "1" saniye bekle
+* "degistirilmisPassword" textini elemente yaz "PasswordGirisAlani"
+* "1" saniye bekle
+* Click to element "LoginButton"
+* Sifre Degismisse

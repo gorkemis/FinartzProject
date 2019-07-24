@@ -1,0 +1,8 @@
+[
+	"/Users/sahabt/testinium/nodejs/bin/gauge",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"/Users/sahabt/Desktop/GorkemIsler/specs/Login.spec"
+]

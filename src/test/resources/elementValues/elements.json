@@ -1,0 +1,53 @@
+[
+  {
+    "key": "SayfaBasligi",
+    "value": "body > table > tbody > tr > td.auto-style1 > p:nth-child(4) > big > strong",
+    "type": "css"
+  },
+  {
+    "key": "StatuMesaji",
+    "value": "body > table > tbody > tr > td.auto-style1 > big > blockquote > blockquote > font > center > b",
+    "type": "css"
+  },
+  {
+    "key": "SayfaBilgiMesaji",
+    "value": "body > table > tbody > tr > td.auto-style1 > blockquote > blockquote > p",
+    "type": "css"
+  },
+  {
+    "key": "UserNameAdi",
+    "value": "body > table > tbody > tr > td.auto-style1 > form > div > center > table > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(1) > td:nth-child(1) > p > font > small",
+    "type": "css"
+  },
+  {
+    "key": "PasswordAdi",
+    "value": "body > table > tbody > tr > td.auto-style1 > form > div > center > table > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > small",
+    "type": "css"
+  },
+  {
+    "key": "LoginButton",
+    "value": "input[type='button']",
+    "type": "css"
+  },
+  {
+    "key": "UserNameGirisAlani",
+    "value": "input[name='username']",
+    "type": "css"
+  },
+  {
+    "key": "PasswordGirisAlani",
+    "value": "input[name='password']",
+    "type": "css"
+  },
+  {
+    "key": "SuccesLogintext",
+    "value": "body > table > tbody > tr > td.auto-style1 > big > blockquote > blockquote > font > center > b",
+    "type": "css"
+  },
+  {
+    "key": "PageTitle",
+    "value": "head > title",
+    "type": "css"
+  }
+]
+
